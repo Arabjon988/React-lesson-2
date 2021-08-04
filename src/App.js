@@ -1,10 +1,17 @@
 import React from 'react'
+import Laptop from './Laptop'
+import Src from './src'
 
- class App extends React.Component {
+
+class App extends React.Component {
+
+
   render() {
     return (
       <div>
-        <h3>Salom</h3>
+      <h2>Siz Kimsiz ?</h2>
+      <Src />
+      <Laptop />
       </div>
     )
   }
